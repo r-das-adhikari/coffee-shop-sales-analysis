@@ -152,6 +152,42 @@ SELECT
 FROM coffee_shop_sales
 GROUP BY store_location, product_category;
 ```
+## 📊 Interactive Power BI Dashboard
+
+Visualized key insights using Power BI for interactive data exploration and stakeholder presentation.
+
+### Dashboard Overview
+
+The dashboard consists of 4 comprehensive pages:
+
+1. **Executive Summary** - KPIs, revenue trends, store and category performance
+2. **Product Performance** - Product analysis, top sellers, category breakdown
+3. **Time Analysis** - Hourly patterns, daily trends, temporal insights
+4. **Store Comparison** - Location-based performance metrics
+
+### Files
+
+- **Power BI File:** [`dashboard/coffee_shop_dashboard.pbix`](dashboard/coffee_shop_dashboard.pbix)
+- **PDF Export:** [`dashboard/coffee_shop_dashboard.pdf`](dashboard/coffee_shop_dashboard.pdf)
+- **Screenshots:** Available in [`results/`](results/) folder
+
+### Dashboard Preview
+
+#### Page 1: Executive Summary
+![Executive Summary](results/dashboard_page1_executive.png)
+
+#### Page 2: Product Performance
+![Product Performance](results/dashboard_page2_products.png)
+
+*Download the .pbix file to interact with filters, drill-downs, and explore the data dynamically.*
+
+### Key Features
+
+- ✅ **Interactive Filters:** Date range, store location, product category
+- ✅ **Dynamic Visualizations:** Charts update based on user selections
+- ✅ **Multiple Views:** 4 comprehensive analytical perspectives
+- ✅ **Professional Design:** Coffee-themed color scheme and clean layout
+- ✅ **Data-Driven Insights:** Clear metrics and KPIs for decision-making
 
 ## 💡 Business Recommendations
 
@@ -180,12 +216,13 @@ GROUP BY store_location, product_category;
 
 ## 📫 Contact
 **Your Name**  
-📧 Email: your.email@example.com  
-💼 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
+📧 Email: rdasadhikari5007@gmail.com  
+💼 LinkedIn: www.linkedin.com/in/ramkrishna-dasadhikari-7b0021381 
 🌐 Portfolio: [your-website.com](https://your-website.com)
 
 ## 📄 License
 This project is open source and available under the [MIT License](LICENSE).
+
 
 ---
 
