@@ -13,16 +13,6 @@ select transaction_date,
 from coffee_shop_sales
 group by transaction_date;
 
-SELECT 
-    transaction_date,
-    SUM(unit_price) AS daily_total_price,
-    AVG(SUM(unit_price)) OVER(
-        ORDER BY transaction_date 
-        ROWS BETWEEN 2 PRECEDING AND CURRENT ROW
-    ) AS moving_avg_3day
-FROM coffee_shop_sales
-GROUP BY transaction_date;
-
 -- Task 2: The Cumulative Total (Running Sum)
 /*Goal: Create a "Bank Account" style view of total items sold.*/
 
